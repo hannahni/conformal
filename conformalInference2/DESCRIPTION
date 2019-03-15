@@ -1,4 +1,4 @@
-Package: conformalInference
+Package: conformalInference2
 Type: Package
 Title: Tools for conformal inference in regression
 Version: 1.0.0
