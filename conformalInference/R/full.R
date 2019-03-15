@@ -154,7 +154,7 @@ conformal.pred = function(x, y, x0, train.fun, predict.fun, alpha=0.1,
   
   # Trial values for y, empty lo, up matrices to fill
   ymax = max(abs(y))
-  yvals = seq(-grid.factor*ymax, grid.factor*ymax,length=num.grid.pts)
+  yvals = seq(0, grid.factor*ymax,length=num.grid.pts)
   lo = up = matrix(0,n0,m)
   pvals = matrix(0,num.grid.pts,m)
   xx = rbind(x,rep(0,p))
